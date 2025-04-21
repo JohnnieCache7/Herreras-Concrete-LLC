@@ -7,7 +7,7 @@
         padding: 0;
       }
       header {
-        background-color: #ff9900; /* Orange color from the logo */
+        background-color: #fea51d; /* Orange color from the logo */
         color: #fff;
         padding: 20px;
         text-align: center;
@@ -65,7 +65,7 @@
         border-radius: 5px;
       }
       form button {
-        background-color: #ff9900;
+        background-color: #fea51d;
         color: #fff;
         padding: 10px;
         border: none;
