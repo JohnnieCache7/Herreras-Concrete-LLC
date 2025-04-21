@@ -7,7 +7,7 @@
         padding: 0;
       }
       header {
-        background-color: #ff6600; /* Orange color from the logo */
+        background-color: #ff9900; /* Orange color from the logo */
         color: #fff;
         padding: 20px;
         text-align: center;
@@ -45,8 +45,8 @@
         background-color: #333;
         color: #fff;
         text-align: center;
-        padding: 10px;
-        position: fixed;
+        padding: 1px;
+        position:static;
         width: 100%;
         bottom: 0;
       }
