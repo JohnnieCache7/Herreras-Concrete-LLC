@@ -1,6 +1,6 @@
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: ITC Motter Corpus, Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333;
   margin: 0;
@@ -28,6 +28,9 @@ nav a {
   text-decoration: none;
   }
 .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   padding: 20px;
   }
 .gallery {
