@@ -57,15 +57,17 @@ nav a:hover {
 .gallery img {
   max-width: calc(33.333% - 10px);
   height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*box shadows for images*/
+  transition: transform 0.3s;/*animation for images*/
   }
+.gallery img:hover{
+  transform: scale(1.05); /*hover effect for images*/
+}
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px;
-  /*position:static;
-  width: 100%;
-  bottom: 0; */
   }
 form {
   display: flex;
@@ -88,7 +90,11 @@ form button {
   border-radius: 5px;
   margin-top: 10px;
   cursor: pointer;
+  transition: background-color 0.3s; /*animation for button*/
   }
+.form button:hover{
+  background-color: #e69500;/*hover effect for button*/
+}
       
 /* Responsive styles */
 @media (max-width: 768px) {
