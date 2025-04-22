@@ -9,11 +9,21 @@ body {
 header { 
   background-color: #fea51d; /* Orange color from the logo */
   color: #fff;
-  padding: 20px;
-  text-align: center;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .header-content{
+    display: flex;
+    text-align: center;
+  }
+  .header-text{
+    text-align: left;
   }
 .logo {
   max-width: 150px;
+  margin-right: 20px;
   }
 nav {
   background-color: #20272b;
