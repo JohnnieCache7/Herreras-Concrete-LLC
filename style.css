@@ -9,21 +9,22 @@ body {
 header { 
   background-color: #fea51d; /* Orange color from the logo */
   color: #fff;
-  padding: 10px 20px;
+  padding: 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
   }
-  .header-content{
+ .header-content{
     display: flex;
-    text-align: center;
+    align-items: center;
+    width: 100%;
   }
-  .header-text{
-    text-align: left;
-  }
+.header-text{
+  text-align: center;
+  flex-grow: 1;
+  margin-left: -150px;
+}
 .logo {
   max-width: 150px;
-  margin-right: 20px;
   }
 nav {
   background-color: #20272b;
@@ -36,10 +37,18 @@ nav a {
   color: #fff;
   margin: 0 15px;
   text-decoration: none;
+  transition: color 0.3s;
   }
+nav a:hover {
+  color: #fea51d;
+}
 .container {
   padding: 20px;
   }
+
+.about, .services, .testimonials, .contact, .gallery-text, .gallery {
+  margin: 40px;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -53,17 +62,17 @@ footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 1px;
-  position:static;
+  padding: 10px;
+  /*position:static;
   width: 100%;
-  bottom: 0;
+  bottom: 0; */
   }
 form {
   display: flex;
   flex-direction: column;
   }
 form label {
-margin-top: 10px;
+  margin-top: 10px;
   }
 form input, form textarea {
   padding: 10px;
@@ -85,9 +94,18 @@ form button {
 @media (max-width: 768px) {
   header {
   padding: 10px;
+  flex-direction: column;
+  }
+  .header-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-text{
+    margin-left: 0;
   }
 .logo {
   max-width: 100px;
+  margin-bottom: 1opx;
   }
 nav {
   padding: 5px;
