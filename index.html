@@ -11,20 +11,66 @@
       name="keywords"
       content="Concrete, Construction, Patios, Walkways, Stamped Concrete, Concrete Repair, Commercial Concrete Services"
     />
-
     <title>Herrera's Concrete LLC</title>
-    <link rel="stylesheet" href="style.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+      @font-face {
+        font-family: "Motter Corpus Std SemiCondensed";
+        src: url("Fonts/Motter\ Corpus\ Std\ SemiCondensed.otf")
+          format("opentype");
+      }
+      .navbar-brand {
+        font-family: "Motter Corpus Std SemiCondensed", Arial, sans-serif;
+      }
+      .services .card {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <a href="#about" aria-label="About Us">About Us</a>
-      <a href="#services" aria-label="Services">Services</a>
-      <a href="#gallery" aria-label="Gallery">Gallery</a>
-      <a href="#contact" aria-label="Contact">Contact</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="#">Herrera's Concrete LLC</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery-images">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <header>
       <div class="header-content">
@@ -96,6 +142,7 @@
           <h2>Gallery</h2>
           <p>Check out some of our recent projects:</p>
         </div>
+
         <section id="gallery-images" class="gallery-images">
           <img src="Images\concrete1.jpg" alt="Gallery Image 1" />
           <img src="Images\concrete2.jpg" alt="Gallery Image 2" />
