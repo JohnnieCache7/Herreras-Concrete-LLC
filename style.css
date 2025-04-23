@@ -2,7 +2,9 @@
   font-family: 'ITC Motter Corpus';
   src: url('Fonts/Motter\ Corpus\ Std\ SemiCondensed.otf') format('opentype');
 }
-
+html {
+  scroll-behavior: smooth;
+}
   
   body {
     font-family: 'Montserrat', Arial, sans-serif;
@@ -44,10 +46,24 @@ header {
   flex-grow: 1;
   margin-left: -150px;
 }
+.header-text h1, h3 {
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .logo {
   max-width: 150px;
   }
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background-color: #20272b;
   color: #fff;
   padding: 10px;
