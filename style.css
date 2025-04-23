@@ -1,11 +1,19 @@
+@font-face {
+  font-family: 'ITC Motter Corpus';
+  src: url('Fonts/Motter\ Corpus\ Std\ SemiCondensed.otf') format('opentype');
+}
 
 body {
-  font-family: ITC Motter Corpus, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333;
   margin: 0;
   padding: 0;
   }
+
+h1, h2, h3 {
+  font-family: 'ITC Motter Corpus', Arial, sans-serif;
+}
 header { 
   background-color: #fea51d; /* Orange color from the logo */
   color: #fff;
