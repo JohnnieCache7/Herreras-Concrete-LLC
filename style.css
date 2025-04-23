@@ -70,10 +70,11 @@ body {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.3s;
     }
   nav a:hover {
     color: #fea51d;
+    transform: scale(1.1);
   }
   .container {
     padding: 20px;
@@ -192,10 +193,11 @@ body {
     border-radius: 5px;
     margin-top: 10px;
     cursor: pointer;
-    transition: background-color 0.3s; /*animation for button*/
+    transition: background-color 0.3s, transform 0.3s; /*animation for button*/
     }
   .form button:hover{
     background-color: #e69500;/*hover effect for button*/
+    transform: scale(1.05);
   }
         
   /* Responsive styles */
@@ -381,6 +383,9 @@ nav a:hover {
 .gallery-images img:hover{
   transform: scale(1.2); /*hover effect for images*/
 }
+
+
+  
 footer {
   background-color: #333;
   color: #fff;

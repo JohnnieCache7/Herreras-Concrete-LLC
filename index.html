@@ -12,10 +12,10 @@
   </head>
   <body>
     <nav>
-      <a href="#about">About Us</a>
-      <a href="#services">Services</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
+      <a href="#about" aria-label="About Us">About Us</a>
+      <a href="#services" aria-label="Services">Services</a>
+      <a href="#gallery" aria-label="Gallery">Gallery</a>
+      <a href="#contact" aria-label="Contact">Contact</a>
     </nav>
     <header>
       <div class="header-content">
@@ -98,7 +98,6 @@
           <p>Check out some of our recent projects:</p>
         </div>
         <section id="gallery-images" class="gallery-images">
-          <!-- Insert gallery images here -->
           <img src="Images\concrete1.jpg" alt="Gallery Image 1" />
           <img src="Images\concrete2.jpg" alt="Gallery Image 2" />
           <img src="Images\concrete3.jpg" alt="Gallery Image 3" />
@@ -131,8 +130,15 @@
         <!-- <img src="contact.jpg" alt="Contact Image"> -->
       </section>
     </div>
+
     <footer>
       <p>&copy; 2025 Herrera's Concrete LLC. All rights reserved.</p>
     </footer>
+    <script>
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+      });
+    </script>
   </body>
 </html>
