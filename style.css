@@ -80,6 +80,20 @@ nav a:hover {
 .about, .services, .testimonials, .contact, .gallery-text, .gallery {
   margin: 40px;
 }
+
+.AboutUs-Services-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about, .services {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
 .services .card {
   background-color: #fff;
   padding: 20px;
@@ -172,4 +186,7 @@ form input, form textarea {
 form button {
   padding: 5px;
   }
+.AboutUs-Services-Container {
+  flex-direction: column;
+}
 }
