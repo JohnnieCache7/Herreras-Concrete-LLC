@@ -64,6 +64,9 @@ nav a:hover {
   color: #fea51d;
 }
 .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
   }
 
@@ -102,9 +105,11 @@ nav a:hover {
   margin: 40px;
 }
 .BusinessCard {
-  max-width: 810px;
+  max-width: 100%;
+  height: auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  align-items: center;
+  display: block;
+  margin: 0 auto;
 }
 .AboutUs-Services-Container {
   display: flex;
