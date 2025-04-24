@@ -249,6 +249,15 @@ form button {
   max-width: 100px;
   margin-bottom: 10px;
   }
+  .parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    padding: 20px;
+  }
+  .parallax-content {
+    padding: 20px;
+  }
   .BusinessCard {
     max-width: 300px;
   }
