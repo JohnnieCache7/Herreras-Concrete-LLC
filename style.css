@@ -90,7 +90,7 @@ nav a:hover {
 
 .parallax {
     position: relative;
-    background-image: url('./Images/background.jpg'); 
+    /* background-image: url('./Images/background.jpg'); */
     background-attachment: fixed; 
     background-size: cover;
     background-position: center;
@@ -253,10 +253,8 @@ form button {
   margin-bottom: 10px;
   }
   .parallax {
-    
-    background-image: url('./images/background.jpg');
     background-size: cover;
-    height: 400px;
+    height: auto;
     padding: 20px;
   }
   .parallax-content {
