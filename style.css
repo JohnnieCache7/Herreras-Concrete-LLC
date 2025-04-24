@@ -253,7 +253,7 @@ form button {
   margin-bottom: 10px;
   }
   .parallax {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     height: auto;
     padding: 20px;
