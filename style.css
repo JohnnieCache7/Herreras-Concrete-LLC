@@ -311,13 +311,5 @@ form button {
     margin-bottom: 10px;
     }
   
-  .parallax {
-    background-attachment: fixed;
-    background-size: cover;
-    height: auto;
-    padding: 20px;
-  }
-  .parallax-content {
-    padding: 20px;
-  }
+  
 }
