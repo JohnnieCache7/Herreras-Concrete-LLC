@@ -281,10 +281,10 @@ nav a {
   margin: 0 10px;
   }
   .navbar-toggler {
-    display: block;
+    display: block !important;
   }
   .navbar-collapse {
-    display: none;
+    display: none !important;
   }
 .container {
   padding: 10px;
