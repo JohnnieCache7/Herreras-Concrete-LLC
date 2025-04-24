@@ -253,7 +253,7 @@ form button {
   margin-bottom: 10px;
   }
   .parallax {
-    background-attachment: scroll;
+    
     background-image: url('./images/background.jpg');
     background-size: cover;
     height: 400px;
