@@ -257,6 +257,7 @@ form button {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    height: 300px;
     
   }
   .parallax-content {
