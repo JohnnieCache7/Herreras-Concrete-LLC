@@ -235,7 +235,7 @@ form button {
 }
       
 /* Responsive styles */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   header {
   padding: 10px;
   flex-direction: column;
@@ -302,7 +302,7 @@ form button {
   margin: 0 auto;
 }
 }
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .gallery-images img {
     width: 100%;
   }
@@ -312,7 +312,7 @@ form button {
     }
   
   .parallax {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     height: auto;
     padding: 20px;
