@@ -243,9 +243,10 @@ form button {
   }
   .header-text{
     margin-left: 0;
+    text-align: center;
   }
 .logo {
-  max-width: 150px;
+  max-width: 100px;
   margin-bottom: 10px;
   }
   .BusinessCard {
