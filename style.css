@@ -312,6 +312,12 @@ form button {
     max-width: 200px;
     margin-bottom: 10px;
     }
-  
+    .parallax {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 300px;
+      
+    }
   
 }
