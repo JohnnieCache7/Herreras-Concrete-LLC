@@ -260,6 +260,10 @@ nav a {
 .container {
   padding: 10px;
   }
+  .gallery-card {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
 .gallery-images img {
   max-width: 100%;
   height: auto;
@@ -273,10 +277,12 @@ form button {
   }
 .AboutUs-Services-Container {
   flex-direction: column;
+  margin-bottom: 15px; 
 }
+
 .services .card, .contact .card , .gallery-card {
   width: 100%;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .about, .services, .contact, .gallery-card {
   width: 100%;
