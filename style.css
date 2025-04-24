@@ -6,53 +6,61 @@
   font-family: 'ITC Motter Corpus';
   src: url('Fonts/Motter\ Corpus\ Std\ SemiCondensed.otf') format('opentype');
 }
+
 html {
   scroll-behavior: smooth;
 }
-  
-  body {
-    font-family: 'Montserrat', Arial, sans-serif;
-    background-color: #fea41d1e;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 0.5px;
-    line-height: 1.5;
-    }
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #fea41d1e;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
 
 h1, h2, h3 {
   font-family: 'ITC Motter Corpus', Arial, sans-serif;
-  font-size: 2.5em;
 }
+
 h1 {
   font-size: 2.5em;
 }
+
 h2 {
   font-size: 2em;
 }
+
 h3 {
   font-size: 1.5em;
 }
-header { 
+
+header {
   background-color: #fea51d; /* Orange color from the logo */
   color: #fff;
   padding: 20px;
   display: flex;
   align-items: center;
-  }
- .header-content{
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-.header-text{
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header-text {
   text-align: center;
   flex-grow: 1;
   margin-left: -150px;
 }
+
 .header-text h1, h3 {
   animation: fadeIn 2s ease-in-out;
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -61,11 +69,13 @@ header {
     opacity: 1;
   }
 }
+
 .logo {
   width: 100%;
   max-width: 175px;
   height: auto;
-  }
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -75,13 +85,15 @@ nav {
   padding: 10px;
   display: flex;
   justify-content: center;
-  }
+}
+
 nav a {
   color: #fff;
   margin: 0 15px;
   text-decoration: none;
   transition: color 0.3s;
-  }
+}
+
 nav a:hover {
   color: #fea51d;
 }
@@ -91,50 +103,49 @@ nav a:hover {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  }
+}
 
 .parallax {
-  
-   
-    position: relative;
-    background-image: url('./Images/background.jpg'); 
-    background-attachment: fixed; 
-    background-size: cover;
-    background-position: center;
-    height: 400px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-align: center;
-    overflow: hidden; /* new addition */
+  position: relative;
+  background-image: url('./Images/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  overflow: hidden; /* new addition */
 }
-  
-  .parallax-content {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .parallax::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
-    z-index: 0;
-  }
 
+.parallax-content {
+  position: relative;
+  z-index: 2;
+}
+
+.parallax::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  z-index: 0;
+}
 
 .about, .services, .testimonials, .contact, .gallery-text, .gallery-images {
   margin: 40px;
 }
+
 .about {
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
+
 .BusinessCard {
   max-width: 100%;
   height: auto;
@@ -142,6 +153,7 @@ nav a:hover {
   display: block;
   margin: 0 auto;
 }
+
 .AboutUs-Services-Container {
   display: flex;
   justify-content: space-between;
@@ -155,6 +167,7 @@ nav a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
+
 .services .card {
   background-color: #fea41d75;
   padding: 20px;
@@ -162,9 +175,11 @@ nav a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
-.services .card:hover{
+
+.services .card:hover {
   transform: scale(1.05);
 }
+
 .gallery-card {
   background-color: #fff;
   padding: 20px;
@@ -172,33 +187,36 @@ nav a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
-.gallery-card:hover{
+
+.gallery-card:hover {
   transform: scale(1.01);
 }
+
 .gallery-images {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  }
+}
+
 .gallery-images img {
   max-width: calc(33.333% - 7px);
   height: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*box shadows for images*/
-  transition: transform 0.3s;/*animation for images*/
-  }
-.gallery-images img:hover{
-  transform: scale(1.3); /*hover effect for images*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* box shadows for images */
+  transition: transform 0.3s; /* animation for images */
 }
 
+.gallery-images img:hover {
+  transform: scale(1.3); /* hover effect for images */
+}
 
-  
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px;
-  }
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -206,16 +224,19 @@ form {
   padding: 20px;
   margin: 10px 0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  }
+}
+
 form label {
   margin-top: 10px;
-  }
+}
+
 form input, form textarea {
   padding: 10px;
   margin-top: 5px;
   border: 1px solid #cccccc;
   border-radius: 5px;
-  }
+}
+
 form button {
   background-color: #34bfff;
   color: #fff;
@@ -224,10 +245,11 @@ form button {
   border-radius: 5px;
   margin-top: 10px;
   cursor: pointer;
-  transition: background-color 0.3s; /*animation for button*/
-  }
-.form button:hover{
-  background-color: #7bb7e0;/*hover effect for button*/
+  transition: background-color 0.3s; /* animation for button */
+}
+
+form button:hover {
+  background-color: #7bb7e0; /* hover effect for button */
 }
 
 .contact .card {
@@ -237,29 +259,29 @@ form button {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
-.contact .card:hover{
+
+.contact .card:hover {
   transform: scale(1.01);
 }
-      
+
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   header {
-  padding: 10px;
-  flex-direction: column;
+    padding: 10px;
+    flex-direction: column;
   }
-  .header-content{
+  .header-content {
     flex-direction: column;
     align-items: center;
   }
-  .header-text{
+  .header-text {
     margin-left: 0;
     text-align: center;
   }
-.logo {
-  max-width: 150px;
-  margin-bottom: 10px;
+  .logo {
+    max-width: 150px;
+    margin-bottom: 10px;
   }
-  
   .parallax {
     -webkit-background-size: cover;
     background-attachment: scroll !important;
@@ -267,19 +289,18 @@ form button {
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
-    
   }
   .parallax-content {
     padding: 20px;
-  } 
+  }
   .BusinessCard {
     max-width: 300px;
   }
-nav {
-  padding: 5px;
+  nav {
+    padding: 5px;
   }
-nav a {
-  margin: 0 10px;
+  nav a {
+    margin: 0 10px;
   }
   .navbar-toggler {
     display: block;
@@ -287,38 +308,37 @@ nav a {
   .navbar-collapse {
     display: none;
   }
-.container {
-  padding: 10px;
+  .container {
+    padding: 10px;
   }
   .gallery-card {
     margin-top: 20px;
     padding-top: 20px;
   }
-.gallery-images img {
-  max-width: 100%;
-  height: auto;
+  .gallery-images img {
+    max-width: 100%;
+    height: auto;
   }
+  form input, form textarea {
+    padding: 5px;
+  }
+  form button {
+    padding: 5px;
+  }
+  .AboutUs-Services-Container {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .services .card, .contact .card, .gallery-card {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .about, .services, .contact, .gallery-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 
-form input, form textarea {
-  padding: 5px;
-  }
-form button {
-  padding: 5px;
-  }
-.AboutUs-Services-Container {
-  flex-direction: column;
-  margin-bottom: 15px; 
-}
-
-.services .card, .contact .card , .gallery-card {
-  width: 100%;
-  margin: 20px 0;
-}
-.about, .services, .contact, .gallery-card {
-  width: 100%;
-  margin: 0 auto;
-}
-}
 @media screen and (max-width: 400px) {
   .gallery-images img {
     width: 100%;
@@ -326,6 +346,5 @@ form button {
   .logo {
     max-width: 200px;
     margin-bottom: 10px;
-    }
-  
+  }
 }

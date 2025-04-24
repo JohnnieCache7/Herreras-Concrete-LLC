@@ -14,10 +14,6 @@
     <title>Herrera's Concrete LLC</title>
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
@@ -38,6 +34,12 @@
         border: none !important;
         box-shadow: none !important;
       }
+      .navbar-collapse {
+        display: none !important;
+      }
+      .navbar-collapse.show {
+        display: block !important;
+      }
     </style>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -55,7 +57,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-collapse collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#about">About Us</a>
@@ -104,7 +106,7 @@
             every project is completed with precision and excellence.
           </p>
 
-          <h3>Our Mission</h3>
+          <h2>Our Mission</h2>
 
           <p>
             Our mission is to deliver exceptional concrete and construction
@@ -168,13 +170,36 @@
             enctype="text/plain"
           >
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              autocomplete="name"
+            />
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              autocomplete="email"
+            />
             <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" required />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              autocomplete="tel"
+            />
             <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <textarea
+              id="message"
+              name="message"
+              required
+              autocomplete="off"
+            ></textarea>
             <button type="submit">Send</button>
           </form>
 
