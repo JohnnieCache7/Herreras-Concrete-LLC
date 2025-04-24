@@ -89,6 +89,7 @@ nav a:hover {
   }
 
 .parallax {
+  border: 2px dashed red;
     position: relative;
     background-image: url('./Images/background.jpg');
     background-attachment: fixed; 
@@ -255,7 +256,7 @@ form button {
   .parallax {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top-center;
     height: 300px;
     padding: 20px;
   }
