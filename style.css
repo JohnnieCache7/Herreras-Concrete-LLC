@@ -120,6 +120,11 @@ nav a:hover {
 .about, .services, .testimonials, .contact, .gallery-text, .gallery-images {
   margin: 40px;
 }
+.about {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
 .BusinessCard {
   max-width: 100%;
   height: auto;
@@ -161,18 +166,19 @@ nav a:hover {
   transform: scale(1.01);
 }
 .gallery-images {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   }
 .gallery-images img {
-  max-width: calc(33.333% - 10px);
+  max-width: calc(33.333% - 7px);
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*box shadows for images*/
   transition: transform 0.3s;/*animation for images*/
   }
 .gallery-images img:hover{
-  transform: scale(1.2); /*hover effect for images*/
+  transform: scale(1.3); /*hover effect for images*/
 }
 
 
@@ -256,7 +262,9 @@ nav a {
   }
 .gallery-images img {
   max-width: 100%;
+  height: auto;
   }
+
 form input, form textarea {
   padding: 5px;
   }
@@ -266,4 +274,17 @@ form button {
 .AboutUs-Services-Container {
   flex-direction: column;
 }
+.services .card, .contact .card , .gallery-card {
+  width: 100%;
+  margin: 10px 0;
+}
+.about, .services, .contact, .gallery-card {
+  width: 100%;
+  margin: 0 auto;
+}
+}
+@media (max-width: 400px) {
+  .gallery-images img {
+    width: 100%;
+  }
 }
