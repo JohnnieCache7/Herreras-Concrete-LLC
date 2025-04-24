@@ -259,6 +259,8 @@ form button {
   margin-bottom: 10px;
   }
   .parallax {
+    -webkit-background-size: cover;
+    background-attachment: scroll !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
