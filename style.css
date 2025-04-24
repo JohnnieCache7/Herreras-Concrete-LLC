@@ -254,10 +254,10 @@ form button {
   margin-bottom: 10px;
   }
   .parallax {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
+    background-size: cover;
+    
+    background-position: top-center;
+    height: 200px;
     
   }
   .parallax-content {
@@ -311,13 +311,6 @@ form button {
   .logo {
     max-width: 200px;
     margin-bottom: 10px;
-    }
-    .parallax {
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 300px;
-      
     }
   
 }
