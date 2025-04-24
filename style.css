@@ -303,4 +303,17 @@ form button {
   .gallery-images img {
     width: 100%;
   }
+  .logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+    }
+  .parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    padding: 20px;
+  }
+  .parallax-content {
+    padding: 20px;
+  }
 }
