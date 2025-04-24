@@ -256,7 +256,7 @@ form button {
     background-attachment: scroll;
     background-image: url('./images/background.jpg');
     background-size: cover;
-    height: auto;
+    height: 400px;
     padding: 20px;
   }
   .parallax-content {
