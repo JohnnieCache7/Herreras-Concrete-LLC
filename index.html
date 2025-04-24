@@ -190,7 +190,7 @@
 
     <script>
       $(document).ready(function () {
-        $(".navbar-toggler").click(function () {
+        $(".navbar-toggler").on("click touchstart", function () {
           $(".navbar-collapse").collapse("toggle");
         });
       });
