@@ -90,16 +90,17 @@ nav a:hover {
 
 .parallax {
     position: relative;
-    background-image: url('Images/background.jpg'); /* Replace with your image path */
-    background-attachment: fixed;
+    background-image: url('Images/background.jpg'); 
+    background-attachment: fixed; 
     background-size: cover;
     background-position: center;
-    height: 400px; /* Adjust height as needed */
+    height: 400px; 
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     text-align: center;
+    overflow: hidden; /* new addition */
 }
   
   .parallax-content {
@@ -309,13 +310,14 @@ form button {
     max-width: 200px;
     margin-bottom: 10px;
     }
+    /*
   .parallax {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     height: auto;
     padding: 20px;
   }
   .parallax-content {
     padding: 20px;
-  }
+  }*/
 }
