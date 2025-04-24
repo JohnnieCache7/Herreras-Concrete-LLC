@@ -85,12 +85,7 @@ nav a {
 nav a:hover {
   color: #fea51d;
 }
-.navbar-toggler {
-  display: block !important;
-}
-.navbar-collapse {
-  display: none !important;
-}
+
 .container {
   width: 100%;
   max-width: 1200px;
