@@ -75,6 +75,14 @@ header {
   max-width: 175px;
   height: auto;
 }
+.navbar-logo {
+  width: 40px;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  vertical-align: middle;
+}
+
 
 nav {
   position: sticky;
@@ -311,6 +319,7 @@ form button:hover {
   .BusinessCard {
     max-width: 300px;
   }
+
   nav {
     padding: 5px;
   }
