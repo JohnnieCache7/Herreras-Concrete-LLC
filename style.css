@@ -319,7 +319,9 @@ form button:hover {
   .BusinessCard {
     max-width: 300px;
   }
-
+  .navbar-logo {
+    max-width: 28px;
+  }
   nav {
     padding: 5px;
   }
